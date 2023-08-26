@@ -13,11 +13,11 @@ function Section_3() {
           variants={textVariant(1)}
           className=" text-[40px] 500:text-[45px] font-medium 500:font-semibold text-center  text-gray-200 mb-[10px] "
         >
-          Performent{" "}
+          Segurança{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             &
           </span>{" "}
-          security
+          credibilidade
         </motion.div>
       </div>
       <div className="w-auto h-auto absolute  translate-y-[-50px] flex flex-col items-center justify-center">
@@ -46,18 +46,18 @@ function Section_3() {
             id="Wecom-text"
             className=" text-[12px] 310:text-[15px] 370:text-auto"
           >
-            Encryption
+            Certificado SSL
           </div>
         </motion.div>
       </div>
       <div className=" absolute bottom-[80px] 500:bottom-[150px] px-[5px]  ">
         <motion.div
-          id="cursive"
+         
           variants={textVariant(3)}
           className=" text-[17px] font-medium text-center text-gray-300 flex flex-col "
         >
-          <span>The contents of your notes are end-to-end encrypted.</span>
-          <span> No one else can read them (not even us).</span>
+          <span>Otimizamos os mecanismos de busca do Google</span>
+          <span>Através de páginas rápidas e seguras</span>
         </motion.div>
       </div>
       <div className=" w-[1500px]  h-full z-[-10] absolute    flex flex-row   items-start justify-center ">

@@ -18,7 +18,7 @@ function Section1_text() {
           id="Wecom-text"
           className=" text-[12px] 310:text-[14px] 370:text-auto"
         >
-          Experience With Some Technology
+          Usamos Server Side Rendering e servidores Vercel
         </div>
       </motion.div>
       <motion.div
@@ -26,7 +26,7 @@ function Section1_text() {
         className=" text-[30px] 370:text-[40px] 450:text-[50px] 800:text-[60px] text-white  font-medium mt-[10px] text-center "
       >
         <span className="hidden 800:flex mb-0 1300:mb-[15px] ">
-          Think better with Next js 13
+          Mais velocidade com Next js 13
         </span>
         <span className="flex 800:hidden  ">
           Think better with <br /> Next js 13
@@ -36,9 +36,9 @@ function Section1_text() {
       <motion.div
         variants={textVariant(2)}
         className=" text-[20px] text-gray-200  text-center mt-[10px]"
-        id="cursive"
+        
       >
-        Never miss a note , idea or connection.
+        Abaixo você confere as tecnologias que nós usamos em nossos projetos
       </motion.div>
     </div>
   );

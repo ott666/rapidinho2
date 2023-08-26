@@ -10,10 +10,10 @@ function Section_5() {
     <div className=" w-full 1300:w-[1250px] z-10 h-auto relative m-auto flex flex-col items-center justify-center overflow-hidden  pb-[100px] ">
       <div className=" w-full 840:w-[830px] 1250:w-full h-auto flex flex-col  items-start justify-center my-[15px] px-[15px] 1300:px-[10px] ">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500  font-semibold text-[20px] ">
-          Projects
+          Projetos
         </span>
         <span className=" font-bold text-[30px] text-white ">
-          Featured Projects
+          Você pode escolher qualquer um
         </span>
       </div>
       <div className=" w-full h-auto flex flex-row items-center justify-center  1250:justify-between flex-wrap p-[10px] 840:p-0  ">

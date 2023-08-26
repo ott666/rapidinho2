@@ -14,7 +14,7 @@ interface Props {
 function Projectcard_Web({ data, index }: Props) {
   const dispatch = useDispatch();
   return (
-    <div className=" w-auto h-auto">
+    <div className="group w-auto h-auto">
       <div className="w-auto h-auto mb-[20px] 840:mb-0 hidden 1300:flex  ">
         <div className=" w-full 840:w-[800px] 1250:w-[390px] h-auto 1250:h-[440px] rounded-[14px] relative overflow-hidden   backdrop-blur-sm  m-0 840:m-[10px]  border bg-[#0c0728] hover:bg-[#0e082e] border-[#401f788e] p-[13px] ">
           <div
@@ -25,13 +25,9 @@ function Projectcard_Web({ data, index }: Props) {
           >
             in development⏳
           </div>
-          <div className="  rounded-[7px]">
+          <div className="  group-hover:scale-110 duration-100 rounded-[7px]">
             <Image
-              onClick={() =>
-                dispatch(
-                  set_Image_src({ data: data?.project_image, isMobile: false })
-                )
-              }
+              
               src={data?.project_image}
               width={1920}
               height={1080}

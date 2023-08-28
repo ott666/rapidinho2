@@ -43,8 +43,8 @@ function Section_2() {
           <a className="Home_a">Tablet</a>, {/*--->a*/}
           <a className="Home_a">Mobile</a> - sempre levamos em conta o tamanho desses dispositivos para a criação de nossas páginas.
         </p>
-        <a
-          href="#Section_4"
+        <a 
+          href="https://wa.me/5516997998799?text=Ol%C3%A1%2C+estava+no+seu+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es."
           id="button-primary"
           className=" animate-slideleftT4 px-[20px] py-[7px] text-white  cursor-pointer hover:scale-105 active:scale-90  transition-all   duration-150 select-none rounded-[5px]"
         >

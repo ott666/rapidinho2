@@ -15,7 +15,7 @@ function Navbar() {
         <Nav_Left />
         <div className=" w-[500px] h-full hidden 860:flex flex-row items-center justify-between ">
           <div
-            className="w-full h-auto flex flex-row items-center justify-between mr-[15px]  bg-[#0300145e] border
+            className="w-full h-auto flex flex-row items-center justify-around mr-[15px]  bg-[#0300145e] border
              border-[#7042f861] px-[20px]
            py-[10px] rounded-full "
           >
@@ -23,12 +23,7 @@ function Navbar() {
             <Link href={"/Project"} className="Nav_text">
               Project
             </Link>
-            <span className="Nav_text relative  ">
-              Resources
-              <div className="w-[38px] h-[16px] border border-teal-500 absolute top-[-13px] flex flex-row items-center justify-center left-[-20px] text-[11px]  bg-[#BBF7D0] text-teal-800  font-bold rounded-full ">
-                <span>soon</span>
-              </div>
-            </span>
+            
             <More />
           </div>
         </div>

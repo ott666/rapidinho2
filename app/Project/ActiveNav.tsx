@@ -30,15 +30,15 @@ function ActiveNav() {
           NavTag === "Next js 13" ? "  text-sky-500   scale-110" : ""
         } hover:text-sky-500 cursor-pointer text-[13px] mx-[5px] 340:mx-0  ml-[10px] 600:text-[15px]`}
       >
-        Next js 13
+        Landing Pages
       </div>
       <div
-        onClick={() => dispatch(setopctionchoose("React Native"))}
+        onClick={() => dispatch(setopctionchoose("Publicidade"))}
         className={` ${
-          NavTag === "React Native" ? "  text-sky-500  scale-110 " : ""
+          NavTag === "Publicidade" ? "  text-sky-500  scale-110 " : ""
         } hover:text-sky-500 cursor-pointer mx-[5px] 340:mx-0  text-[13px] ml-[10px] 600:text-[15px]`}
       >
-        React Native
+        Mídias e publicidade
       </div>
       <div
         onClick={() => dispatch(setopctionchoose("Tauri"))}
@@ -46,16 +46,9 @@ function ActiveNav() {
           NavTag === "Tauri" ? "  text-sky-500  scale-110 " : ""
         } hover:text-sky-500 cursor-pointer mx-[5px] 340:mx-0  text-[13px] ml-[10px] 600:text-[15px]`}
       >
-        Tauri
+        E-commerce
       </div>
-      <div
-        onClick={() => dispatch(setopctionchoose("server"))}
-        className={` ${
-          NavTag === "React" ? "  text-sky-500  scale-110 " : ""
-        } hover:text-sky-500 cursor-pointer mx-[5px] 340:mx-0  text-[13px] ml-[10px] 600:text-[15px]`}
-      >
-        All server
-      </div>
+    
     </div>
   );
 }

@@ -5,7 +5,7 @@
 
 @layer components {
   .Nav_text {
-    @apply text-sm text-black dark:text-gray-300  hover:text-[black] dark:hover:text-gray-50 cursor-pointer animate-slowfade;
+    @apply text-sm text-white dark:text-gray-300  hover:text-[#faec4d] dark:hover:text-gray-50 cursor-pointer animate-slowfade;
   }
   .Home_a {
     @apply text-sky-400 hover:underline cursor-pointer underline-offset-4  mx-[2px];

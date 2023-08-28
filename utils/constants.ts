@@ -415,7 +415,7 @@ export const Other_skill3: Skill_data[] = [
 
 export const Project: Project_data[] = [
   {
-    title: "Morden Next js 13 Profiol",
+    title: "Agência de viagens - SafeTravel",
     video_key: "HvkrAjHJ-38",
     say_xi: "Xi Have a Gread Day ☘️ ",
     say_xi_blog:
@@ -448,14 +448,14 @@ export const Project: Project_data[] = [
     frontend_dowload_link:
       "https://github.com/HyatMyat4/HyatMyat_Profiol/archive/refs/heads/main.zip",
     backend_dowload_link: "",
-    project_image: "/profiol3.png",
+    project_image: "/cover-travel.png",
     project_blog:
-      "Contain StarMode , Authentication Google , Facebook , Github , Instgram , Custom Star Colour Basic Animation With Fraimer Motion",
+      "Landing Page moderna desenvolvido para agência de viagens SafeTravel",
     Type: "Next js 13",
     indevelopment: false,
   },
   {
-    title: "Shoe Ecommerce & AdminDashboard ",
+    title: "Loja de roupas - Sick Commerce ",
     video_key: "v3LJMcWbcDQ",
     say_xi: "Hello my friends 👟",
     say_xi_blog:
@@ -509,14 +509,14 @@ export const Project: Project_data[] = [
       "https://github.com/HyatMyat4/Nike_Shoes/archive/refs/heads/main.zip",
     backend_dowload_link:
       "https://github.com/HyatMyat4/Nike_Backend/archive/refs/heads/main.zip",
-    project_image: "/shoemap.png",
+    project_image: "/sick-cover.png",
     project_blog:
-      "A Real Time Full Stack Shoe Ecommerce & Admin Dashboard application User Can Order and Contain Real World Payment For Stripe",
+      "Ecommerce desenvolvido para a Sick - uma loja focada em roupas femininas.",
     Type: "Next js 13",
     indevelopment: false,
   },
   {
-    title: "AdminDashboard Web app",
+    title: "Pagamentos digitais - Hoobank",
     video_key: "yF1oJ7wzvWY",
     say_xi: "Xi Form Responsive Food Project🤤",
     say_xi_blog:
@@ -571,27 +571,24 @@ export const Project: Project_data[] = [
       "https://github.com/HyatMyat4/AdminDashboard/archive/refs/heads/main.zip",
     backend_dowload_link:
       "https://github.com/HyatMyat4/DeshboardBackend/archive/refs/heads/main.zip",
-    project_image: "/foodd.png",
+    project_image: "/hoobank-cover.png",
     project_blog:
-      "A Real Time Full Stack FoodOrder & Admin Dashboard application User Can Order and Contain Payment For Stripe And AdminDashBoard Feature Admin can make Product CRUD and",
+      "Landing page de alta conversão para agência de pagamentos Hoobank",
     Type: "Next js 13",
     indevelopment: false,
   },
   {
-    title: "Deliveroo Mobile App",
+    title: "Redes sociais e publicidade",
     video_key: "AxQ_Eli8gtk",
     say_xi: "Xi from my first mobile app 📱",
     say_xi_blog:
       "ReactNative First Project With Expo CLI Conatain Google AUthentication Contain Basic RestApi and Google Maps functionality ",
     technology_feature: [
-      "Tailwind",
-      "React Native",
-      "Redux",
-      "Type Script",
-      "Expo",
-      "Node js",
-      "Express js",
-      "Postger sql",
+    "Google Ads",
+     "Google My Business",
+     "Google Analytics",
+     "Facebook Ads",
+     "Instagram Ads"
     ],
 
     about_this_app:
@@ -625,34 +622,28 @@ export const Project: Project_data[] = [
       "https://github.com/HyatMyat4/Deliveroo/archive/refs/heads/main.zip",
     project_image: "",
     project_blog:
-      "It My First ReactNative App So The have a lot of Bug!, Feature Conatin Google Auth UserCanOrder Remove Order And Containe ReactNativeMap Justlike Deliveroo",
+      "Trabalhamos com criação de mídias para redes sociais, administramos seu perfil e sua publicidade.",
     Type: "React Native",
     project_Img_Mobile: [
-      "/deliveroo1.jpg",
-      "/roo2.jpg",
-      "/roo3.jpg",
-      "/roo4.jpg",
-      "/roo5.jpg",
+      "/home-health-google.png",
+      "/stockprint-instra.png",
+      "/homehealth-insta.png",
+      "/stockprint-google.png",
+      "/insta-rapidinho.png",
     ],
     indevelopment: false,
   },
   {
-    title: "FullStackFood Order Website",
+    title: "Instagram StockPrint",
     video_key: "yF1oJ7wzvWY",
     say_xi: "Xi Form Responsive Food Project🤤",
     say_xi_blog:
       "Food Shopping Project With Graphql server User Authentication  , Create , Read ,  Update , Delete And Google login , Github , Instgram , Facebook , JWT Auth  ",
     technology_feature: [
-      "Tailwind",
-      "React",
-      "Redux",
-      "Next js 13",
-      "Type Script",
-      "Node js",
-      "Express js",
-      "Firebase",
-      "Graphql",
-      "Stripe",
+     "Google Ads",
+     "Google My Business",
+     "Google Analytics",
+     "Instagram Ads",
     ],
 
     about_this_app:
@@ -692,28 +683,24 @@ export const Project: Project_data[] = [
       "https://github.com/HyatMyat4/AdminDashboard/archive/refs/heads/main.zip",
     backend_dowload_link:
       "https://github.com/HyatMyat4/DeshboardBackend/archive/refs/heads/main.zip",
-    project_image: "/foodorder.png",
+    project_image: "/stockprint-insta2.png",
     project_blog:
-      "A Real Time Full Stack FoodOrder & Admin Dashboard application User Can Order and Contain Payment For Stripe And AdminDashBoard Feature Admin can make Product CRUD and",
-    Type: "Next js 13",
+    "Veja o Instagram do nosso cliente Stockprint! Nós cuidamos da criação e gerenciamento de posts",
+    Type: "Publicidade",
     indevelopment: false,
   },
 
   {
-    title: "Fullstack AI ChatGPT ( Clone ) ",
+    title: "Instagram Home Health Ribeirão ",
     video_key: "R90bxY4UwPg",
     say_xi: "Xello My Frends 💚",
     say_xi_blog:
       "This is my First AI Project data Coming From Opend AI , You can asked like RealTime Chat GPT   ",
     technology_feature: [
-      "html",
-      "css",
-      "Tailwind",
-      "React",
-      "Redux",
-      "Next js 13",
-      "Type Script",
-      "Firebase",
+      "Google Ads",
+     "Google Analytics",
+     "Facebook Ads",
+     "Instagram Ads",
     ],
 
     about_this_app:
@@ -739,10 +726,10 @@ export const Project: Project_data[] = [
     frontend_dowload_link:
       "https://github.com/HyatMyat4/Chat_GPT4/archive/refs/heads/main.zip",
     backend_dowload_link: "",
-    project_image: "/gpt2.png",
+    project_image: "/homehealth-insta2.png",
     project_blog:
-      "A Real Time You Can Ask any thing & you can create new chat delete chat & Clear conversations Feature and google , microsoft Auth",
-    Type: "Next js 13",
+     "Veja o Instagram do nosso cliente Home Health Ribeirão! Nós cuidamos da criação e gerenciamento de posts",
+    Type: "Publicidade",
     indevelopment: false,
   },
   {

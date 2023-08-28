@@ -194,6 +194,41 @@ function Technology_tag({ data }: Props) {
       >
         Expo
       </div>
+      <div
+        className={`tag ${
+          data.technology_feature.includes("Instagram Ads") ? "" : " hidden"
+        }  bg-[#b32edf]    text-[#fdfdfd]  `}
+      >
+        Instagram Ads
+      </div>
+      <div
+        className={`tag ${
+          data.technology_feature.includes("Google Ads") ? "" : " hidden"
+        }  bg-[#ffe30d]    text-[#000000]  `}
+      >
+        Google Analytics
+      </div>
+      <div
+        className={`tag ${
+          data.technology_feature.includes("Google Ads") ? "" : " hidden"
+        }  bg-[#df2e2e]    text-[#fdfdfd]  `}
+      >
+        Google Ads
+      </div>
+      <div
+        className={`tag ${
+          data.technology_feature.includes("Google My Business") ? "" : " hidden"
+        }  bg-[#ffffff]    text-[#000000]  `}
+      >
+        Google My Business
+      </div>
+      <div
+        className={`tag ${
+          data.technology_feature.includes("Facebook Ads") ? "" : " hidden"
+        }  bg-[#2e69df]    text-[#fdfdfd]  `}
+      >
+        Facebook Ads
+      </div>
     </div>
   );
 }

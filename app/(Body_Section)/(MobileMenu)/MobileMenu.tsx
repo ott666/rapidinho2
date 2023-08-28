@@ -41,7 +41,7 @@ function MobileMenu() {
         className=" w-full min-h-[50px] rounded-[10px] border
              hover:border-sky-500  border-[#7042f861] flex flex-row items-center font-semibold justify-center "
       >
-        Course
+        Cursos
         <ChevronDownIcon className=" w-[20px] h-[20px]  text-gray-200 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />
       </div>
       <div
@@ -68,11 +68,10 @@ function MobileMenu() {
         <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] 600:px-[15px] ">
           <div className=" flex flex-col">
             <span className=" font-bold text-gray-200 text-[16px] hover:underline ">
-              Next js 13 Course Comming Soon..
+              Next Js 13 e Typescript
             </span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              An interactive course to learn Next js 13 + Type Script in a fun
-              and easy way
+              Um curso interativo para aprender Next Js 13 e Typescript. Em breve.
             </p>
           </div>
         </div>
@@ -82,7 +81,7 @@ function MobileMenu() {
         className=" w-full min-h-[50px] rounded-[10px] border
              hover:border-sky-500  border-[#7042f861] mt-[15px] flex flex-row  items-center font-semibold justify-center  "
       >
-        Project
+        Projetos
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5 ml-[10px]"
@@ -98,32 +97,13 @@ function MobileMenu() {
           />
         </svg>
       </Link>
-      <div
-        className=" w-full min-h-[50px] rounded-[10px] border pl-[25px]
-             hover:border-sky-500  border-[#7042f861] mt-[15px] flex flex-row  text-gray-200 items-center font-semibold justify-center "
-      >
-        Resources
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5 ml-[9px]"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          />
-        </svg>
-      </div>
+  
       <div
         onClick={() => setMore(!More)}
         className=" w-full min-h-[50px] rounded-[10px] border pr-[5px]
              hover:border-sky-500  border-[#7042f861] flex flex-row mt-[15px] items-center font-semibold justify-center "
       >
-        More
+        Mais
         <ChevronDownIcon className=" w-[20px] h-[20px]  text-gray-200 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />
       </div>
       {More ? <MoreMobile /> : <div></div>}

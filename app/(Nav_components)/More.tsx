@@ -118,9 +118,9 @@ function More() {
             </svg>
           </div>
           <div className=" flex flex-col">
-            <span className=" font-bold text-gray-200 text-[16px] ">
+            <a href="https://discord.gg/CAWAWHtNQK" className=" font-bold text-gray-200 text-[16px] ">
               Servidor do Discord
-            </span>
+            </a>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
               Faça parte da nossa comunidade no discord, lá você tira suas dúvidas e interage conosco.
             </p>

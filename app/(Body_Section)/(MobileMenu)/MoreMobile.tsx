@@ -52,48 +52,26 @@ function MoreMobile() {
           />
         </svg>
       </div>
-      <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] ">
-        <div className=" flex flex-col">
-          <span className=" font-bold text-gray-200 text-[16px] ">
-            Blog Comming Soon..
-          </span>
-          <p className=" mt-[5px] text-[14px] text-gray-300 ">
-            Get valuable insights and tips on my blog.
-          </p>
-        </div>
-      </div>
-      <Link
-        href={"AboutMe"}
-        className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] "
-      >
-        <div className=" flex flex-col">
-          <span className=" font-bold text-gray-200 text-[16px] ">About</span>
-          <p className=" mt-[5px] text-[14px] text-gray-300 ">
-            Learn more about me, my work, and how I can help you with your
-            project.
-          </p>
-        </div>
-      </Link>
+      
+      
       <a
-        href="https://www.youtube.com/channel/UCVBLPSX_7Tvm0iEFVMgd5-w"
+        href="https://www.instagram.com/rapidinho.solutions/"
         className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] "
       >
         <div className=" flex flex-col">
-          <span className=" font-bold text-gray-200 text-[16px] ">YouTube</span>
+          <span className=" font-bold text-gray-200 text-[16px] ">Instagram</span>
           <p className=" mt-[5px] text-[14px] text-gray-300 ">
-            Subscribe to my YouTube channel dedicated to teaching and sharing my
-            knowledge.
+            Confira nossas postagens mais recentes
           </p>
         </div>
       </a>
       <div className="w-full h-auto hover:bg-[#221d41] rounded-[8px] flex flex-row py-[13px] px-[5px] ">
         <div className=" flex flex-col">
-          <span className=" font-bold text-gray-200 text-[16px] ">
-            Community Comming Soon..
-          </span>
+          <a href="https://discord.gg/CAWAWHtNQK" className=" font-bold text-gray-200 text-[16px] ">
+            Servidor do Discord
+          </a>
           <p className=" mt-[5px] text-[14px] text-gray-300 ">
-            Join the Discord community to ask questions, share your projects,
-            and get help from other developers.
+            Faça parte da nossa comunidade no Discord, lá você tira suas dúvidas e interage conosco.
           </p>
         </div>
       </div>
@@ -104,13 +82,13 @@ function MoreMobile() {
         >
           <div className=" font-bold text-gray-200 text-[16px] flex flex-col items-start  justify-start  ">
             <div>
-              <span>Stars Mode : </span>
+              <span>Estrelas : </span>
             </div>
             <div className=" mt-[10px]">
               {starmode === "active" ? (
-                <div className=" text-teal-500  text-[14px] "> Active </div>
+                <div className=" text-teal-500  text-[14px] "> Ativado </div>
               ) : (
-                <div className=" text-rose-500  text-[14px] "> Disable </div>
+                <div className=" text-rose-500  text-[14px] "> Desativado </div>
               )}
             </div>
           </div>
@@ -119,7 +97,7 @@ function MoreMobile() {
       <div className="w-full h-auto hover:bg-[#221d41]  select-none rounded-[8px] flex flex-col  py-[13px] px-[5px] ">
         <div className={` w-full flex flex-row items-center  justify-start`}>
           <span className=" text-[13px] 310:text-[16px] ">
-            Stars colours :{" "}
+            Cor das Estrelas :{" "}
           </span>
         </div>
         <div className=" overflow-x-scroll pl-[15px]">

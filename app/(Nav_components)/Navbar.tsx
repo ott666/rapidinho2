@@ -21,7 +21,7 @@ function Navbar() {
           >
             <Course />
             <Link href={"/Project"} className="Nav_text">
-              Project
+              Projetos
             </Link>
             
             <More />

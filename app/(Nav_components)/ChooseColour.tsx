@@ -16,7 +16,7 @@ function ChooseColour({ colour, onColourChange, text_tittle }: Props) {
             text_tittle ? "" : " hidden"
           } w-full flex flex-row items-center  justify-start`}
         >
-          <span className="">Stars colours : </span>
+          <span className="">Cor das estrelas: </span>
         </div>
         <div className="">
           <div className="w-full flex flex-row items-center  justify-start mt-[10px]">

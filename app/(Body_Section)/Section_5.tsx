@@ -18,7 +18,7 @@ function Section_5() {
       </div>
       <div className=" w-full h-auto flex flex-row items-center justify-center  1250:justify-between flex-wrap p-[10px] 840:p-0  ">
         {Project.slice(0, 7).map((data: Project_data, index: any) =>
-          data.Type === "React Native" ? (
+          data.Type === "Mídias e publicidade" ? (
             <Projectcard_Mobile
               key={data.title + data.project_image + index}
               index={index}

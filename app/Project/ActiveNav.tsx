@@ -25,25 +25,33 @@ function ActiveNav() {
         All
       </div>
       <div
-        onClick={() => dispatch(setopctionchoose("Next js 13"))}
+        onClick={() => dispatch(setopctionchoose("Landing Pages"))}
         className={` ${
-          NavTag === "Next js 13" ? "  text-sky-500   scale-110" : ""
+          NavTag === "Landing Pages" ? "  text-sky-500   scale-110" : ""
         } hover:text-sky-500 cursor-pointer text-[13px] mx-[5px] 340:mx-0  ml-[10px] 600:text-[15px]`}
       >
         Landing Pages
       </div>
       <div
-        onClick={() => dispatch(setopctionchoose("Publicidade"))}
+        onClick={() => dispatch(setopctionchoose("Instagram"))}
         className={` ${
-          NavTag === "Publicidade" ? "  text-sky-500  scale-110 " : ""
+          NavTag === "Instagram" ? "  text-sky-500   scale-110" : ""
+        } hover:text-sky-500 cursor-pointer text-[13px] mx-[5px] 340:mx-0  ml-[10px] 600:text-[15px]`}
+      >
+        Instagram
+      </div>
+      <div
+        onClick={() => dispatch(setopctionchoose("Mídias e publicidade"))}
+        className={` ${
+          NavTag === "Mídias e publicidade" ? "  text-sky-500  scale-110 " : ""
         } hover:text-sky-500 cursor-pointer mx-[5px] 340:mx-0  text-[13px] ml-[10px] 600:text-[15px]`}
       >
         Mídias e publicidade
       </div>
       <div
-        onClick={() => dispatch(setopctionchoose("Tauri"))}
+        onClick={() => dispatch(setopctionchoose("E-commerce"))}
         className={` ${
-          NavTag === "Tauri" ? "  text-sky-500  scale-110 " : ""
+          NavTag === "E-commerce" ? "  text-sky-500  scale-110 " : ""
         } hover:text-sky-500 cursor-pointer mx-[5px] 340:mx-0  text-[13px] ml-[10px] 600:text-[15px]`}
       >
         E-commerce

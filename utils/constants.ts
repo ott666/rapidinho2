@@ -451,7 +451,7 @@ export const Project: Project_data[] = [
     project_image: "/cover-travel.png",
     project_blog:
       "Landing Page moderna desenvolvido para agência de viagens SafeTravel",
-    Type: "Next js 13",
+    Type: "Landing Pages",
     indevelopment: false,
   },
   {
@@ -512,7 +512,7 @@ export const Project: Project_data[] = [
     project_image: "/sick-cover.png",
     project_blog:
       "Ecommerce desenvolvido para a Sick - uma loja focada em roupas femininas.",
-    Type: "Next js 13",
+    Type: "E-commerce",
     indevelopment: false,
   },
   {
@@ -574,7 +574,7 @@ export const Project: Project_data[] = [
     project_image: "/hoobank-cover.png",
     project_blog:
       "Landing page de alta conversão para agência de pagamentos Hoobank",
-    Type: "Next js 13",
+    Type: "Landing Pages",
     indevelopment: false,
   },
   {
@@ -623,7 +623,7 @@ export const Project: Project_data[] = [
     project_image: "",
     project_blog:
       "Trabalhamos com criação de mídias para redes sociais, administramos seu perfil e sua publicidade.",
-    Type: "React Native",
+    Type: "Mídias e publicidade",
     project_Img_Mobile: [
       "/home-health-google.png",
       "/stockprint-instra.png",
@@ -686,7 +686,7 @@ export const Project: Project_data[] = [
     project_image: "/stockprint-insta2.png",
     project_blog:
     "Veja o Instagram do nosso cliente Stockprint! Nós cuidamos da criação e gerenciamento de posts",
-    Type: "Publicidade",
+    Type: "Instagram",
     indevelopment: false,
   },
 
@@ -729,7 +729,7 @@ export const Project: Project_data[] = [
     project_image: "/homehealth-insta2.png",
     project_blog:
      "Veja o Instagram do nosso cliente Home Health Ribeirão! Nós cuidamos da criação e gerenciamento de posts",
-    Type: "Publicidade",
+    Type: "Instagram",
     indevelopment: false,
   },
   {

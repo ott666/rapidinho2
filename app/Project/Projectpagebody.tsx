@@ -26,7 +26,7 @@ function Projectpagebody() {
       {Search_query.length ? (
         <div className=" w-full h-auto flex flex-row items-center justify-center   flex-wrap p-[10px] 840:p-0  ">
           {Search_data.map((data: Project_data, index: any) =>
-            data.Type === "React Native" ? (
+            data.Type === "Mídias e publicidade" ? (
               <Projectcard_Mobile
                 key={data.title + data.project_image}
                 index={index}
@@ -46,7 +46,7 @@ function Projectpagebody() {
       ) : NavTag === "All" ? (
         <div className=" w-full h-auto flex flex-row  items-center  justify-center  flex-wrap p-[10px] 840:p-0  ">
           {Project.map((data: Project_data, index: any) =>
-            data.Type === "React Native" ? (
+            data.Type === "Mídias e publicidade" ? (
               <Projectcard_Mobile
                 key={data.title + data.project_image}
                 index={index}
@@ -76,7 +76,7 @@ function Projectpagebody() {
           } w-full h-auto flex flex-row items-center justify-center   flex-wrap p-[10px] 840:p-0  `}
         >
           {onlyReactProject.map((data: Project_data, index: any) =>
-            data.Type === "React Native" ? (
+            data.Type === "Mídias e publicidade" ? (
               <Projectcard_Mobile
                 key={data.title + data.video_key + data.project_image}
                 index={index}

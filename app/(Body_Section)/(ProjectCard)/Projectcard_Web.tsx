@@ -35,7 +35,7 @@ function Projectcard_Web({ data, index }: Props) {
               className="rounded "
             />
           </div>
-          <Link href={`/Project/${data.video_key}`}>
+          <Link href={`${data.video_key}`}>
             <div className="w-full h-auto mt-[10px] text-white flex felx-row items-center justify-between ">
               <span className=" font-bold text-[18px] ">{data.title}</span>
             </div>

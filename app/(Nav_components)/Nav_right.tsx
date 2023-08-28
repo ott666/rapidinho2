@@ -25,7 +25,7 @@ function Nav_right() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-[30px] w-[30px] text-gray-300 "
+            className="h-[30px] w-[30px]  text-gray-300 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -40,14 +40,14 @@ function Nav_right() {
         </div>
       )}
       <div
-        onClick={() => dispatch(set_Signup(true))}
-        id="button-primary"
-        className={`px-[16px] py-[5px] ${
-          data?.user ? " hidden" : ""
-        }  border border-[#401f788e]    select-none active:scale-90 transition-all duration-100  font-medium rounded-[8px] text-white 
+        
+        
+        className={`px-[16px] py-[5px] border  border-[#401f788e]   bg-green-500 select-none active:scale-90 transition-all duration-100  font-medium rounded-[8px] text-white 
     cursor-pointer   `}
       >
-        <span>Sign up</span>
+        <a href="https://wa.me/5516997998799?text=Ol%C3%A1%2C+estava+no+seu+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es">
+          Whatsapp
+          </a>
       </div>
 
       <div

@@ -110,7 +110,6 @@ function Projectcard_Mobile({ data, index }: Props) {
             </div>
           ))}
         </div>
-        <Link href={`/Project/${data.video_key}`}>
           <div className="w-full h-auto mt-[10px] text-white ">
             <span className=" font-bold text-[18px] ">{data.title}</span>
           </div>
@@ -121,7 +120,6 @@ function Projectcard_Mobile({ data, index }: Props) {
             </span>
           </div>
           <Technology_tag data={data} />
-        </Link>
       </div>
     </div>
   );

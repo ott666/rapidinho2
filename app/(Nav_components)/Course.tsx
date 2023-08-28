@@ -20,7 +20,7 @@ function Course() {
   return (
     <div className="Nav_text flex flex-row group relative group ">
       <div onClick={() => setopen(true)} className="  flex flex-row">
-        Courses
+        Cursos
         <ChevronDownIcon className=" w-[18px] h-[18px]  text-gray-300 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />
       </div>
 
@@ -60,11 +60,10 @@ function Course() {
           </div>
           <div className=" flex flex-col">
             <span className=" font-bold text-gray-200 text-[16px] hover:underline ">
-              Next js 13 Course Comming Soon..
+              Next Js 13 e Typescript
             </span>
             <p className=" mt-[5px] text-[14px] text-gray-300 ">
-              An interactive course to learn Next js 13 + Type Script in a fun
-              and easy way
+              Um curso interativo para aprender Next Js 13 e Typescript. Em breve
             </p>
           </div>
         </div>

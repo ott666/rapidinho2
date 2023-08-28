@@ -9,6 +9,7 @@ import {
   SearchQuery_data,
 } from "../../Redux-store/Redux-action";
 import Server_card from "./Server_card";
+import Footer from "../(Footer)/Footer";
 function Projectpagebody() {
   const NavTag = useSelector(opctionchoose_data);
   const Search_query = useSelector(SearchQuery_data);
@@ -28,71 +29,75 @@ function Projectpagebody() {
           {Search_data.map((data: Project_data, index: any) =>
             data.Type === "Mídias e publicidade" ? (
               <Projectcard_Mobile
-                key={data.title + data.project_image}
-                index={index}
-                data={data}
+              key={data.title + data.project_image}
+              index={index}
+              data={data}
               />
-            ) : data.Type === "server" ? (
-              <div></div>
-            ) : (
-              <Projectcard_Web
-                key={data.title + data.project_image}
-                index={index}
-                data={data}
-              />
-            )
-          )}
+              ) : data.Type === "server" ? (
+                <div></div>
+                ) : (
+                  <Projectcard_Web
+                  key={data.title + data.project_image}
+                  index={index}
+                  data={data}
+                  />
+                  )
+                  )}
         </div>
       ) : NavTag === "All" ? (
         <div className=" w-full h-auto flex flex-row  items-center  justify-center  flex-wrap p-[10px] 840:p-0  ">
           {Project.map((data: Project_data, index: any) =>
             data.Type === "Mídias e publicidade" ? (
               <Projectcard_Mobile
-                key={data.title + data.project_image}
-                index={index}
-                data={data}
+              key={data.title + data.project_image}
+              index={index}
+              data={data}
               />
-            ) : data.Type === "server" ? (
-              <div></div>
-            ) : (
-              <Projectcard_Web
-                key={data.title + data.project_image}
-                index={index}
-                data={data}
-              />
-            )
-          )}
+              ) : data.Type === "server" ? (
+                <div></div>
+                ) : (
+                  <Projectcard_Web
+                  key={data.title + data.project_image}
+                  index={index}
+                  data={data}
+                  />
+                  )
+                  )}
         </div>
       ) : NavTag === "server" ? (
         <div className="w-full h-auto flex flex-row items-center justify-center   flex-wrap p-[10px] 840:p-0">
           {onlyReactProject.map((data: Project_data, index: any) => (
             <Server_card key={data.title + index} data={data} />
-          ))}
+            ))}
         </div>
       ) : (
         <div
-          className={` ${
-            NavTag === "All" ? " hidden " : ""
-          } w-full h-auto flex flex-row items-center justify-center   flex-wrap p-[10px] 840:p-0  `}
+        className={` ${
+          NavTag === "All" ? " hidden " : ""
+        } w-full h-auto flex flex-row items-center justify-center   flex-wrap p-[10px] 840:p-0  `}
         >
           {onlyReactProject.map((data: Project_data, index: any) =>
             data.Type === "Mídias e publicidade" ? (
               <Projectcard_Mobile
+              key={data.title + data.video_key + data.project_image}
+              index={index}
+              data={data}
+              />
+              ) : (
+                <Projectcard_Web
                 key={data.title + data.video_key + data.project_image}
                 index={index}
                 data={data}
-              />
-            ) : (
-              <Projectcard_Web
-                key={data.title + data.video_key + data.project_image}
-                index={index}
-                data={data}
-              />
-            )
-          )}
+                />
+                )
+                )}
+
         </div>
       )}
+    <Footer/>
+     
     </div>
+     
   );
 }
 

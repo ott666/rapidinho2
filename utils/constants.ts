@@ -416,7 +416,7 @@ export const Other_skill3: Skill_data[] = [
 export const Project: Project_data[] = [
   {
     title: "Agência de viagens - SafeTravel",
-    video_key: "HvkrAjHJ-38",
+    video_key: "https://travel-six-theta.vercel.app/",
     say_xi: "Xi Have a Gread Day ☘️ ",
     say_xi_blog:
       "This is My Profiol Project For Showcase , basic Ui interface and Contain Basic Animation & Authentication  ",
@@ -456,7 +456,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "Loja de roupas - Sick Commerce ",
-    video_key: "v3LJMcWbcDQ",
+    video_key: "https://ecommerce-1-mocha.vercel.app/",
     say_xi: "Hello my friends 👟",
     say_xi_blog:
       "Xi That is My  Fullstack Responsive Shoes Project I get A lot of SKill Form This Project Complex Ui , authentication , CRUD 💚💚 ",
@@ -517,7 +517,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "Pagamentos digitais - Hoobank",
-    video_key: "yF1oJ7wzvWY",
+    video_key: "https://agency2-two.vercel.app/",
     say_xi: "Xi Form Responsive Food Project🤤",
     say_xi_blog:
       "Food Shopping Project With Graphql server User Authentication  , Create , Read ,  Update , Delete And Google login , Github , Instgram , Facebook , JWT Auth  ",
@@ -579,7 +579,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "Redes sociais e publicidade",
-    video_key: "AxQ_Eli8gtk",
+    video_key: "/",
     say_xi: "Xi from my first mobile app 📱",
     say_xi_blog:
       "ReactNative First Project With Expo CLI Conatain Google AUthentication Contain Basic RestApi and Google Maps functionality ",
@@ -635,7 +635,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "Instagram StockPrint",
-    video_key: "yF1oJ7wzvWY",
+    video_key: "https://www.instagram.com/stockprint.rp/",
     say_xi: "Xi Form Responsive Food Project🤤",
     say_xi_blog:
       "Food Shopping Project With Graphql server User Authentication  , Create , Read ,  Update , Delete And Google login , Github , Instgram , Facebook , JWT Auth  ",
@@ -692,7 +692,7 @@ export const Project: Project_data[] = [
 
   {
     title: "Instagram Home Health Ribeirão ",
-    video_key: "R90bxY4UwPg",
+    video_key: "https://www.instagram.com/homehealthribeiraorp/",
     say_xi: "Xello My Frends 💚",
     say_xi_blog:
       "This is my First AI Project data Coming From Opend AI , You can asked like RealTime Chat GPT   ",
@@ -733,8 +733,8 @@ export const Project: Project_data[] = [
     indevelopment: false,
   },
   {
-    title: "Nike AdminDashboard Web App ",
-    video_key: "v3LJMcWbcDQ",
+    title: "Landing Page - Home Health Ribeirão ",
+    video_key: "https://www.homehealthribeirao.com.br/",
     say_xi: "Hello my friends 👟",
     say_xi_blog:
       "Xi That is My  Fullstack Responsive Shoes Project I get A lot of SKill Form This Project Complex Ui , authentication , CRUD 💚💚 ",
@@ -787,263 +787,19 @@ export const Project: Project_data[] = [
       "https://github.com/HyatMyat4/Nike_Shoes/archive/refs/heads/main.zip",
     backend_dowload_link:
       "https://github.com/HyatMyat4/Nike_Backend/archive/refs/heads/main.zip",
-    project_image: "/nikedash.png",
+    project_image: "/cover-homehealth.png",
     project_blog:
-      "A Real Time Full Stack Shoe Ecommerce & Admin Dashboard application User Can Order and Contain Real World Payment For Stripe",
-    Type: "Next js 13",
+      "Landing Page desenvolvida para nosso cliente Home Health Ribeirão, para cuidadores de idosos",
+    Type: "Landing Pages",
     indevelopment: false,
   },
-  {
-    title: "Morden 3 js Profiol",
-    video_key: "6wzf2ho-kzI",
-    say_xi: "Hello my friend! 👋🏼",
-    say_xi_blog:
-      "This is a Normal 3 js Responsive Profiol Website Constain Starts Mode , Background Music , Day and Light Mode , Contain youtube emb video like youtube Mobile Responsive desing Base on Vite ",
-    technology_feature: [
-      "html",
-      "css",
-      "Javascript",
-      "Tailwind",
-      "React",
-      "Redux",
-      "Threes js",
-      "Framer Motion",
-    ],
-    about_this_app:
-      "This Responsive  Website is Make for showcase Project Profile ",
-    design_blog:
-      "very basic desing from My Friends , and I ReModified It All Code & Desing by Me ",
-    dependencies_blog:
-      "You can use Yarn or NPM to install the dependencies. In this case I use npm beacuse We use older npm package .",
-    package: [
-      " maath",
-      " @react-three/fiber",
-      " @emailjs/browser",
-      " framer-motion",
-      " @react-three/fiber ",
-      " @reduxjs/toolkit ",
-      " react-router-dom",
-      " react-tilt",
-      " react-simple-typewriter",
-      " react-icons",
-      " react-spinkit",
-      " react-vertical-timeline-component",
-      " three",
-    ],
-    conclusion_blog:
-      "As I said at the beginning, this is a great project for begginers and even for those who are not new to React . I bealive this is a grat project to have in a resume or portfolio. I am very happy with the app and I hope you will enjoy it as well.",
-    youtube_link: "https://youtu.be/6wzf2ho-kzI",
-    githhub_link: "https://github.com/HyatMyat4",
-    frontend_dowload_link:
-      "https://github.com/HyatMyat4/Profiol_2/archive/refs/heads/main.zip",
-    backend_dowload_link: "",
-    project_image: "/Untitled-1.png",
-    project_blog:
-      "Morden Profiol Wbsite With Javascript | React | Tailwind css | Responsive Website profiol desing.",
-    Type: "React",
-    indevelopment: false,
-  },
-  {
-    title: "ApexLegnds.com ( Clone )",
-    video_key: "IqYbA6ZZ-e4",
-    say_xi: "Hi have a good day! ☘️",
-    say_xi_blog: "That is My  favourite game Website so i can make Clone one",
-    technology_feature: [
-      "html",
-      "css",
-      "Javascript",
-      "Tailwind",
-      "React",
-      "Redux",
-      "Next js 13",
-    ],
+ 
+  
+  
+  
 
-    about_this_app:
-      "Simple ApexLegnds Game Web application DropDown Feature Complex Responsive  and Contain Embed video",
-    design_blog: "Desing From Apexlegends.com , I Recreate That Design",
-    dependencies_blog:
-      "You can use Yarn or NPM to install the dependencies. In this case I am use Npm",
-    package: [
-      "@reduxjs/toolkit",
-      "next",
-      "react-icons",
-      "react-redux",
-      "swiper",
-      "typescript",
-    ],
-    conclusion_blog: "",
-    youtube_link: "https://youtu.be/IqYbA6ZZ-e4",
-    githhub_link: "https://github.com/HyatMyat4",
-    frontend_dowload_link:
-      "https://github.com/HyatMyat4/ApexLegends.com/archive/refs/heads/main.zip",
-    backend_dowload_link: "",
-    project_image: "/apex.png",
-    project_blog:
-      "Simple ApexLegnds Game Web application DropDown Feature Complex Responsive",
-    Type: "Next js 13",
-    indevelopment: false,
-  },
-  {
-    title: "Full Stack SocalMedia ",
-    video_key: "cLKsNVSyPMM",
-    say_xi: "Hello my Friends 🎉",
-    say_xi_blog:
-      "Fullstack Social Media Project With  React , Tailwind css and My First Node js express Server ☘️ ",
-    technology_feature: [
-      "html",
-      "css",
-      "Javascript",
-      "Tailwind",
-      "React",
-      "Redux",
-      "Node js",
-      "Express js",
-    ],
-    about_this_app:
-      "A Real Time Full Stack SocalMedia application User Can Upload Post With Image , User Can Make Post CRUD Operations & Reaction Feature , Comment CRUD & Contain User Profile CRUD and Friends Add , Remove RealTime Messanger Can send Image,Link,Text & RealTime With Pusher ",
-    design_blog:
-      "Basic Desing From Youtube and I Modified That Desing All Code By Me an My Own Desing ",
-    dependencies_blog:
-      "You can use Yarn or NPM to install the dependencies. In this case I am use Npm",
-    package: [
-      "@mui/icons-material",
-      "@reduxjs/toolkit",
-      "formik",
-      "javascript-time-ago",
-      "jwt-decode",
-      "material-ui-popup-state",
-      "pusher-js",
-      "react-dropzone",
-      "react-easy-crop",
-      "react-icons",
-      "react-redux",
-      "react-router-dom",
-      "redux-persist",
-      "swiper",
-      "uuid",
-    ],
-    conclusion_blog: "",
-    youtube_link: "https://youtu.be/cLKsNVSyPMM",
-    githhub_link: "https://github.com/HyatMyat4",
-    frontend_dowload_link:
-      "https://github.com/HyatMyat4/GrapeMedia/archive/refs/heads/main.zip",
-    backend_dowload_link:
-      "https://github.com/HyatMyat4/SocialMediaBackend-/archive/refs/heads/main.zip",
-    project_image: "/reactsocialmedia1.png",
-    project_blog:
-      "A Real Time Full Stack SocalMedia application User Can Upload Post With Image , User Can Make Post CRUD Operations & Reaction Feature , Comment CRUD & Contain User Profile CRUD and Friends Add , Remove RealTime Messanger Can send Image,Link,Text",
-    Type: "React",
-    indevelopment: false,
-  },
-  {
-    title: "Profiol Server",
-    video_key: "",
-    say_xi: "",
-    say_xi_blog: "",
-    technology_feature: ["Golang", "Gin", "Mongo db", "JWT"],
-    about_this_app: "",
-    design_blog: "",
-    dependencies_blog: "",
-    package: [],
-    conclusion_blog: "",
-    youtube_link: "",
-    githhub_link: "",
-    frontend_dowload_link: "",
-    backend_dowload_link: "",
-    project_image: "/goserver.png",
-    project_blog:
-      "My First Go , Gin Server , Basic CRUD Go Server With Mongodb",
-    Type: "server",
-    indevelopment: true,
-  },
-  {
-    title: "ShoeEcommerce Server",
-    video_key: "",
-    say_xi: "",
-    say_xi_blog: "",
-    technology_feature: [
-      "Node js",
-      "Express js",
-      "Postger sql",
-      "Firebase",
-      "JWT",
-      "Stripe",
-    ],
-    about_this_app: "",
-    design_blog: "",
-    dependencies_blog: "",
-    package: [],
-    conclusion_blog: "",
-    youtube_link: "",
-    githhub_link: "",
-    frontend_dowload_link: "",
-    backend_dowload_link:
-      "https://github.com/HyatMyat4/Nike_Backend/archive/refs/heads/main.zip",
-    project_image: "/n2.png",
-    project_blog:
-      " User authentication Google auth , Facebook auth , Nike Auth ..more , Mind leven CRUD functionality",
-    Type: "server",
-    indevelopment: false,
-  },
-  {
-    title: "FoodOrder & AdminDashboard",
-    video_key: "",
-    say_xi: "",
-    say_xi_blog: "",
-    technology_feature: [
-      "Node js",
-      "Express js",
-      "Firebase",
-      "Graphql",
-      "Stripe",
-      "JWT",
-    ],
-
-    about_this_app: "",
-    design_blog: "",
-    dependencies_blog: "",
-    package: [],
-    conclusion_blog: "",
-    youtube_link: "",
-    githhub_link: "",
-    frontend_dowload_link: "",
-    backend_dowload_link:
-      "https://github.com/HyatMyat4/DeshboardBackend/archive/refs/heads/main.zip",
-    project_image: "/n2.png",
-    project_blog:
-      "User authentication , Graphql  Mind leven CRUD functionality , Google auth , Facebook auth , Fastfood Auth,",
-    Type: "server",
-    indevelopment: false,
-  },
-  {
-    title: "Deliveroo Server",
-    video_key: "",
-    say_xi: "",
-    say_xi_blog: "",
-    technology_feature: [
-      "Node js",
-      "Express js",
-      "Firebase",
-      "Postger sql",
-      "JWT",
-    ],
-
-    about_this_app: "",
-    design_blog: "",
-    dependencies_blog: "",
-    package: [],
-    conclusion_blog: "",
-    youtube_link: "",
-    githhub_link: "",
-    frontend_dowload_link: "",
-    backend_dowload_link:
-      "https://github.com/HyatMyat4/Deliveroo/archive/refs/heads/main.zip",
-    project_image: "/n2.png",
-    project_blog:
-      "Node js Express With Postger Sql ,FireBase FireStore  CRUD functionality",
-    Type: "server",
-    indevelopment: false,
-  },
+ 
+ 
 ];
 
 export const colour: string[] = [

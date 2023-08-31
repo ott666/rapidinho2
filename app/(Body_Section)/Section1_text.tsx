@@ -29,7 +29,7 @@ function Section1_text() {
           Mais velocidade com Next js 13
         </span>
         <span className="flex 800:hidden  ">
-          Think better with <br /> Next js 13
+        Mais velocidade com Next js 13
         </span>
       </motion.div>
 

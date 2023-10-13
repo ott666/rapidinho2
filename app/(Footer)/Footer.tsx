@@ -58,7 +58,7 @@ function Footer() {
           <div className="min-w-[200px]  h-auto flex flex-col  items-center 630:items-start justify-start">
             <div className=" font-bold text-[16px]">Contato</div>
             <a
-              href="https://www.linkedin.com/in/htet-myat-14089322a/"
+              href="https://www.rapidinhosolutions.com.br/"
               className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer "
             >
               <svg
@@ -74,7 +74,7 @@ function Footer() {
               <span className=" text-[15px] ml-[6px]">contato@rapidinhosolutions.com.br</span>
             </a>
             <a
-              href="https://twitter.com/MyatHyat"
+              href="https://www.rapidinhosolutions.com.br/"
               className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer "
             >
               <svg
@@ -90,7 +90,7 @@ function Footer() {
               <span className=" text-[15px] ml-[6px]">(16) 9 9799-8799</span>
             </a>
             <a
-              href="https://twitter.com/MyatHyat"
+              href="https://www.rapidinhosolutions.com.br/"
               className=" flex flex-row items-center my-[15px] hover:underline cursor-pointer "
             >
               <svg
